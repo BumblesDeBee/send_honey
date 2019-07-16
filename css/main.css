@@ -8,13 +8,13 @@ p {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 30px;
     color: hsl(40, 100%, 80%);
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -28,7 +28,7 @@ h2 {
     width: 325px;
     border: 3px solid hsl(35, 90%, 20%);
     padding: 25px 35px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     color: hsla(35, 91%, 20%);
     background-color: hsl(35, 100%, 70%);
     text-align: center;
