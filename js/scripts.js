@@ -1,15 +1,15 @@
+var init = 5000;
+var countdown = 1 / fps;
+var losingpollen = init - countdown;
+var beforehoney = init - losingpollen;
+var sendhoney = 100;
+var currentpollen = beforehoney + sendhoney;
+var displaycp = "The current pollen level is: " + currentpollen;
+
+function currentpollen(beforehoney, sendhoney) {
+    return beforehoney + sendhoney;
+}
+
 var button = document.getElementById("button");
 
-var rainbow = ["red", "orange", "yellow", "green", "blue",
-    "indigo", "violet"
-];
-
-function change() {
-    document.body.style.background = rainbow[Math.floor(7 * Math.random())];
-}
-button.addEventListener("click", change);
-
-//To Do:
-//1.) When User clicks "Send Honey!" Button:
-    //*Add 100 "Pollen" to "Total Pollen" count
-    //*Display "Thank You!" Page
+button.addEventListener("click", sendhoney);
