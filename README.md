@@ -2,7 +2,7 @@
 
 *A tiny graphical personalized motivational web app!*
 
-## Functionality
+## Functionality/Features
 
 1. Has a dynamic "Deb Bee" illustrated graphic that changes depending on Deb Bee's current "Level"
 
